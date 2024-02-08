@@ -44,7 +44,7 @@ test('title validation', async ({ page }) => {
 
 });
 
-test.only('', async ({ page }) => {
+test('', async ({ page }) => {
   await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/');
 
   const Products = page.locator(".products div.product")
