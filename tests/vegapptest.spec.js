@@ -44,7 +44,7 @@ test('title validation', async ({ page }) => {
 
 });
 
-test('', async ({ page }) => {
+test('Select from multiple Products', async ({ page }) => {
   await page.goto('https://rahulshettyacademy.com/seleniumPractise/#/');
 
   const Products = page.locator(".products div.product")
@@ -63,7 +63,7 @@ test('', async ({ page }) => {
       break
     }
   }
-  await page.pause();
+  // await page.pause();
 
 });
 
